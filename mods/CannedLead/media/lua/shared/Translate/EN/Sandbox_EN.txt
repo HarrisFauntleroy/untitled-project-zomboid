@@ -1,0 +1,12 @@
+Sandbox_EN = {
+	
+	Sandbox_CannedLead = "Canned Lead",
+	
+	Sandbox_CannedLead_SpawnChance = "Spawn Chance",
+	Sandbox_CannedLead_SpawnChance_option1 = "Extremely Rare",
+	Sandbox_CannedLead_SpawnChance_option2 = "Rare",
+	Sandbox_CannedLead_SpawnChance_option3 = "Normal",
+	Sandbox_CannedLead_SpawnChance_option4 = "Common",
+	Sandbox_CannedLead_SpawnChance_option5 = "Abundant",
+
+}

@@ -1,0 +1,13 @@
+VERSION = 1,
+
+option CannedLead.SpawnChance
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+
+	page = CannedLead,
+	translation = CannedLead_SpawnChance,
+	valueTranslation = CannedLead_SpawnChance,
+}
+

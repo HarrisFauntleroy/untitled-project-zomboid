@@ -1,0 +1,23 @@
+module Base
+{
+	/****************************** This file is for 3D World Models. ******************************/	
+	
+	model CB_CannedLead_Ground
+	{
+		mesh = Worlditems/CannedLead,
+		texture = Worlditems/CannedLead,
+		scale = 0.0045,
+	}
+	model CB_OpenCannedLead
+	{
+		mesh = Worlditems/Open_CannedLead,
+		texture = Worlditems/CannedLead,
+		scale = 0.0045,
+	}
+
+
+
+
+
+
+}

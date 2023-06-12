@@ -1,0 +1,36 @@
+module CannedLead
+{
+	imports
+	{
+		Base,
+	}
+	
+	item CannedLead
+	{
+		Type 		= Food,
+		Weight 		= 0.8,
+		DisplayName 		= Canned Lead,
+		Icon 		= CannedLeadIcon,
+		StaticModel 		= CanClosed,
+		WorldStaticModel 		= CB_CannedLead_Ground,
+		DisplayCategory 		= Food,
+		CannedFood 		= true,
+		Packaged 		= true,
+		Calories 		= 500,
+		Carbohydrates 		= 90,
+		Proteins 		= 17.5,
+		Lipids 		= 6,
+	}
+	recipe Open Canned Lead
+	{
+		CannedLead,
+		keep [Recipe.GetItemTypes.CanOpener],
+		Result 		: Lead,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: OpenCannedFood,
+		Prop2:CB_OpenCannedLead,
+	}
+}
+
